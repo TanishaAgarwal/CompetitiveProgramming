@@ -14,7 +14,7 @@ int main()
             start = s;
             end = i;
         }
-        else if(sum<0){
+        if(sum<0){
             sum = 0;
             s = i+1;
         }
